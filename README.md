@@ -1,4 +1,4 @@
-# Abinaya Hariharan — Premium 3D Portfolio
+# Abinaya Hariharan —  Portfolio
 
 A responsive React + Vite portfolio with a dark navy / electric-blue visual system, glassmorphism cards, Framer Motion transitions and a React Three Fiber metallic hero sphere.
 
