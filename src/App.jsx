@@ -25,7 +25,13 @@ export default function App() {
     <Background />
     <Navbar />
     <main><Hero /><About /><Education /><Projects /><Skills /><Experience /><Contact /></main>
-    <footer className="footer"><a className="footer-brand" href="#home">A.</a><p>Designed & built by <strong>Abinaya Hariharan</strong></p><span>© 2026 · KEEP LEARNING, KEEP BUILDING.</span></footer>
+    <footer className="footer">
+      <div className="footer-container section-wrap">
+        <a className="footer-brand" href="#home">A.</a>
+        <p>Designed & built by <strong>Abinaya Hariharan</strong></p>
+        <span>© 2026 · KEEP LEARNING, KEEP BUILDING.</span>
+      </div>
+    </footer>
     <motion.a className="back-top" href="#home" aria-label="Back to top" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}><ArrowUp size={18}/></motion.a>
   </>
 }
